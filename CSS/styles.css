@@ -1,0 +1,62 @@
+body {
+    background-color: #644b74;
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color : #000000;
+    font-size : 3em;
+}
+
+h2 { 
+    color : #000000;
+    font-size : 2em;
+}
+
+p {
+    color : #000000;
+    font-size : 1em;
+}
+
+a {
+    text-decoration : none;
+}
+
+img {
+    width : 100%;
+    height : auto;
+}
+
+.main {
+    width : 90%;
+    background-color : #FFFFFF;
+    color : #000000;
+    margin : 20px;
+    margin : auto;
+    padding : 10px;
+}
+
+.banner {
+    display : flex;
+    align-items : center;
+}
+
+.bcol {
+    flex : 50%;
+    padding : 10px;
+}
+
+.button {
+    width : 50%;
+    background-color : #FFFFFF;
+    color : #000000;
+    padding : 10px;
+    margin : auto;
+    font-size : 2em;
+    text-align : center;
+    border-style : dotted;
+    border-color : #000000;
+}
+.button:hover {
+    background-color : #FFBD61;
+}
